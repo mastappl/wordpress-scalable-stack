@@ -74,7 +74,6 @@ services:
 
   - name: balancer
     type: haproxy
-    version: 1.8
     ports:
       - 80
       - 443
