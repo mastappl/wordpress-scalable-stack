@@ -130,6 +130,8 @@ services:
       - name: pma
         static: true
       - name: varnish
+        https: letsencrypt
+        domains: [fractals.social, www.fractals.social]
     deployTo:
       - edge
 
